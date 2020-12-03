@@ -131,7 +131,12 @@ body {
     transition: 0.5s;
     transform-style: preserve-3d;
     transform: translate3d(-50%,-50%,50px) rotate(15deg);
-} 
+}
+
+.container .box:hover .product
+{
+    transform: translate3d(-50%,-50%,100px) rotate(15deg);
+}
 
 .container .box:nth-child(1) .circle,
 .container .box:nth-child(1) .buy
